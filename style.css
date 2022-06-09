@@ -1,0 +1,152 @@
+.body{
+  background-color: #F5F5F5;
+}
+
+.inner{
+  width: 94%;
+  max-width: 1280px;
+  height: 120px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.flex{
+  display: flex;
+}
+
+.logo{
+  width: 100%;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: #444444
+}
+
+.logo:hover{
+  color: #ffcc00;
+}
+
+.gnav{
+  line-height: 25px;
+  font-family: "Avenir";
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.work{
+  color: #444444
+}
+
+.work:hover{
+  color: #ffcc00;
+}
+
+.about{
+  color: #444444
+}
+
+.about:hover{
+  color: #ffcc00;
+}
+
+
+
+
+.content{
+  width: 94%;
+  max-width: 1280px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: 40px;
+}
+
+.card-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.card-list {
+	overflow: hidden;
+
+  margin-bottom: 5px;
+}
+.card-list img {
+        width: 420px;
+	display: block;
+	transition: 0.5s;
+}
+.card-list img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+
+
+
+.footer-wrap{
+  min-height: 30vh;
+  position: relative;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  color: #444444
+}
+
+
+
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  background: #CCCCCC;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+#page_top:hover{
+  background:#ffdc00;
+}
+
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
